@@ -1,0 +1,113 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "Fira Code iScript, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": "active",
+    "explorer.compactFolders": false,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "material-icon-theme.activeIconPack": "vue",
+    "material-icon-theme.folders.theme": "specific",
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "window.zoomLevel": 2,
+    "workbench.colorCustomizations": {
+        "[Night Owl]": {
+            "activityBar.background": "#000C1D",
+            "activityBar.activeBackground": "#58c9f6",
+            "activityBar.border": "#102a44",
+            "editorGroup.border": "#102a44",
+            "sideBar.background": "#001122",
+            "sideBar.border": "#102a44",
+            "sideBar.foreground": "#8BADC1",
+            "titleBar.activeBackground": "#0babf56c",
+            "titleBar.activeForeground": "#EEFDF8"
+        },
+        "[Night Owl (No Italics)]": {
+            "activityBar.background": "#000C1D",
+            "activityBar.border": "#102a44",
+            "editorGroup.border": "#102a44",
+            "sideBar.background": "#001122",
+            "sideBar.border": "#102a44",
+            "sideBar.foreground": "#8BADC1"
+        },
+        "[Tokyo Night]": {
+            "window.activeBorder": "#ff0000",
+            "window.inactiveBorder": "#0000ff",
+            "activityBar.background": "#000C1D",
+            "activityBar.activeBackground": "#11c4c4",
+            "activityBar.border": "#102a44",
+            "editorGroup.border": "#102a44",
+            "sideBar.background": "#001122",
+            "sideBar.border": "#102a44",
+            "sideBar.foreground": "#8BADC1",
+            "titleBar.activeBackground": "#0c1b7de8",
+            "titleBar.activeForeground": "#EEFDF8"
+        },
+        "[Tokyo Night Light]": {
+            "activityBar.activeBackground": "#9b0b93ab",
+            "activityBar.background": "#b6c6dc",
+            "activityBar.foreground": "#e3af06",
+            "activityBar.inactiveForeground": "#0a3469",
+            "sideBar.background": "#e4e7e8b1",
+            "sideBar.border": "#b6c6dc",
+            "sideBar.foreground": "#63686b",
+            "titleBar.activeBackground": "#0c1b7de8",
+            "titleBar.activeForeground": "#EEFDF8"
+        },
+        "[Tokyo Night Storm]": {
+            "activityBar.activeBackground": "#8eb95f",
+            "titleBar.activeBackground": "#0c1b7de8",
+            "titleBar.activeForeground": "#EEFDF8"
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "entity.name.function.ts",
+                    "entity.name.type.ts",
+                    "variable.other.object.ts",
+                    "variable.other.property.ts",
+                    "meta.definition.function.ts",
+                    "meta.object.member.ts",
+                    "meta.var.expr.ts"
+                ],
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control.conditional",
+                    "keyword.operator",
+                    "storage.type.ts"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    }
+}
